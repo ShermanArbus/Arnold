@@ -10,13 +10,8 @@ body {
     /* DO NOT CHANGE THESE */
     font-family: Verdana, Arial, sans-serif;
 }
-.container {
-  display: flex;
-  justify-content: center;
-}
 
 .hero {
-
     /* DO NOT CHANGE THESE */
     background-color: #444444;
 }
@@ -26,21 +21,30 @@ body {
     color: #ffffff;
 }
 
+.hero ul {
+  list-style-type: none;
+}
+
+.hero a {
+  text-decoration: none;
+  color: #ffffff;
+}
+.container {
+  display: flex;
+  justify-content: center;
+}
 
 .posts {
   display: flex;
-  justify-content: center;;
+  justify-content: center;
   flex-wrap: wrap;
-  /*flex: 4 0 25%;*/
-
 
     /* DO NOT CHANGE THESE */
     color: #444444;
 }
 .posts article {
-  /*box-sizing: border-box;*/
+  box-sizing: border-box;
     flex: 0 0 40%;
-    /*flex: 2 0 20%;*/
     margin: 2em;
 
     /* DO NOT CHANGE THESE */
@@ -55,7 +59,7 @@ body {
   box-sizing: border-box;
   flex-direction: column;
   justify-content: flex-start;
-  flex: 0 0 25%;
+  flex: 0 0 20%;
   /* DO NOT CHANGE THESE */
     background-color: #aaaaaa;
     color: #444444;
