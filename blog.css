@@ -14,18 +14,20 @@ body {
 .hero {
   display: flex;
   justify-content: space-between;
+  align-items: flex-end;
     /* DO NOT CHANGE THESE */
     background-color: #444444;
 }
 .hero h1 {
-  margin: 1em;
-  height: 2em;
+  margin: 2em 4em;
+  /*height: 2em;*/
   align-self: center;
     /* DO NOT CHANGE THESE */
     color: #ffffff;
 }
 .hero nav {
   display: flex;
+  margin: 1em;
   }
 .hero ul {
   list-style-type: none;
@@ -96,5 +98,5 @@ footer {
 }
 
 footer nav, p {
-  margin: 1em;
+  margin: 1.5em;
 }
