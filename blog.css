@@ -12,17 +12,22 @@ body {
 }
 
 .hero {
+  display: flex;
+  justify-content: space-between;
     /* DO NOT CHANGE THESE */
     background-color: #444444;
 }
 .hero h1 {
-
+  margin: 1em;
+  height: 2em;
+  align-self: center;
     /* DO NOT CHANGE THESE */
     color: #ffffff;
 }
 
 .hero ul {
   list-style-type: none;
+  align-content: flex-end;
 }
 
 .hero a {
@@ -59,7 +64,8 @@ body {
   box-sizing: border-box;
   flex-direction: column;
   justify-content: flex-start;
-  flex: 0 0 20%;
+  width: 20%;
+  /*flex: 0 0 20%;*/
   /* DO NOT CHANGE THESE */
     background-color: #aaaaaa;
     color: #444444;
@@ -67,7 +73,7 @@ body {
 }
 
 .sidebar section {
-    margin: 1em;
+    margin: 2em 1em;
 
     /* DO NOT CHANGE THESE */
     background-color: #dddddd;
