@@ -11,23 +11,14 @@ body {
   font-family: Verdana, Arial, sans-serif;
 }
 
-/*header tags*/
+/* header tags */
 .hero {
   height: 5em;
-
-  /* FIXME: align-items: center will move h1 to center*/
-
   /* DO NOT CHANGE THESE */
   background-color: #444444;
 }
 
 .hero h1 {
-
-  /*margin: 2em 4em;*/
-  /* FIXME: set height manually + left margin only */
-  /*align-self: center;*/
-  /* FIXME: align-self doesn't account for adding other stuff later */
-
   /* DO NOT CHANGE THESE */
   color: #ffffff;
 }
@@ -36,15 +27,11 @@ body {
   display: flex;
   list-style-type: none;
   padding: 0;
-
-  /* FIXME: display:flex <--spreads out insted of li */
-
 }
+
 .hero li {
-  /*display: inline;*/
   margin-right: 2em;
   margin-top: 1em;
-  /* FIXME: just right side margin? */
 }
 
 .hero a, footer a {
@@ -52,39 +39,31 @@ body {
   color: #ffffff;
 }
 
-/*main articles and sidebar tags*/
+/* main articles and sidebar tags */
 
 .posts {
   display: flex;
   justify-content: center;
-  /* FIXME: space-around? */
   flex-wrap: wrap;
-  /* FIXME: flex: 3 */
-
   /* DO NOT CHANGE THESE */
   color: #444444;
 }
+
 .posts article {
   box-sizing: border-box;
   flex: 0 0 90%;
   margin: 1em;
-  /* FIXME: top & bottom margins only? 1em 0 */
-
   /* DO NOT CHANGE THESE */
   background-color: #dddddd;
   border: 1px solid #444444;
   height: 20em; /* this is just so we can see the articles since they have no content */
 }
 
-
 .sidebar {
   display: flex;
   box-sizing: border-box;
   justify-content: space-around;
   flex-direction: column;
-
-  /* FIXME: align-items: center ???*/
-  /* FIXME: flex: 1 */
   /* DO NOT CHANGE THESE */
   background-color: #aaaaaa;
   color: #444444;
@@ -92,18 +71,16 @@ body {
 }
 
 .sidebar section {
-  /* FIXME: width */
   margin: 2em 1em;
- /* DO NOT CHANGE THESE */
+  /* DO NOT CHANGE THESE */
   background-color: #dddddd;
   border: 1px solid #444444;
   height: 10em; /* this is just so we can see the articles since they have no content */
 }
 
-/*footer tags*/
+/* footer tags */
 
 footer {
-  /*justify-content: space-between;*/
   padding: 1em;
   height: 8em;
   /* DO NOT CHANGE THESE */
@@ -111,15 +88,12 @@ footer {
   color: #eeeeee;
 }
 
-footer nav {
-  /*padding: 1em;*/
-}
 footer p {
-margin-top: 1em;
+  margin-top: 1em;
 }
 
 
-/* ~~~~~~~~~~ */
+/* media queries */
 
 @media screen and (min-width: 35em) {
 
@@ -128,61 +102,55 @@ margin-top: 1em;
     justify-content: space-between;
     align-items: center;
     height: 8em;
-}
+  }
 
-.hero h1 {
-  margin: 2em;
-}
+  .hero h1 {
+    margin: 2em;
+  }
 
-.hero nav {
-  /*display: flex;*/
-  /* FIXME: display: flex unnecessary */
-  align-self: flex-end;
+  .hero nav {
+    align-self: flex-end;
+    margin: 1em;
+  }
 
-  margin: 1em;
-}
+  .hero li {
+    margin-right: 1em;
+  }
 
-.hero li {
-  /*display: inline;*/
-  margin-right: 1em;
-  /* FIXME: just right side margin? */
-}
+  .container {
+    justify-content: space-around;
+  }
 
-.container {
-  /*display: flex;*/
-  justify-content: space-around;
+  .posts {
+    flex: 3;
+  }
 
-}
+  .posts article {
+    box-sizing: border-box;
+    flex: 0 0 40%;
+    margin: 2em 1em;
+  }
 
-.posts {
-  flex: 3;
-}
+  .sidebar {
+    display: flex;
+    flex-direction: row;
+  }
 
-.posts article {
-  box-sizing: border-box;
-  flex: 0 0 40%;
-  margin: 2em 1em;
-}
+  .sidebar section {
+    width: 30%;
+  }
 
-.sidebar {
-  display: flex;
-  flex-direction: row;
+  footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
 
-}
-.sidebar section {
-  width: 30%;
-}
+  footer p {
+    margin-right: 1em;
+    margin-top: 0;
+  }
 
-footer {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-footer p {
-  margin-right: 1em;
-  margin-top: 0;
-}
 }
 
 @media screen and (min-width: 70em) {
@@ -201,4 +169,5 @@ footer p {
   .sidebar section {
     width: 90%;
   }
+
 }
