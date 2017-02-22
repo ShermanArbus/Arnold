@@ -7,8 +7,8 @@ ul{margin:0;}
 
 body {
 
-    /* DO NOT CHANGE THESE */
-    font-family: Verdana, Arial, sans-serif;
+  /* DO NOT CHANGE THESE */
+  font-family: Verdana, Arial, sans-serif;
 }
 
 /*header tags*/
@@ -16,16 +16,15 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: flex-end;
-    /* DO NOT CHANGE THESE */
-    background-color: #444444;
+  /* DO NOT CHANGE THESE */
+  background-color: #444444;
 }
 
 .hero h1 {
   margin: 2em 4em;
-  /*height: 2em;*/
   align-self: center;
-    /* DO NOT CHANGE THESE */
-    color: #ffffff;
+  /* DO NOT CHANGE THESE */
+  color: #ffffff;
 }
 
 .hero nav {
@@ -58,18 +57,18 @@ body {
   justify-content: center;
   flex-wrap: wrap;
 
-    /* DO NOT CHANGE THESE */
-    color: #444444;
+  /* DO NOT CHANGE THESE */
+  color: #444444;
 }
 .posts article {
   box-sizing: border-box;
-    flex: 0 0 40%;
-    margin: 2em;
+  flex: 0 0 40%;
+  margin: 2em;
 
-    /* DO NOT CHANGE THESE */
-    background-color: #dddddd;
-    border: 1px solid #444444;
-    height: 20em; /* this is just so we can see the articles since they have no content */
+  /* DO NOT CHANGE THESE */
+  background-color: #dddddd;
+  border: 1px solid #444444;
+  height: 20em; /* this is just so we can see the articles since they have no content */
 }
 
 
@@ -81,18 +80,18 @@ body {
   width: 20%;
   /*flex: 0 0 20%;*/
   /* DO NOT CHANGE THESE */
-    background-color: #aaaaaa;
-    color: #444444;
+  background-color: #aaaaaa;
+  color: #444444;
 
 }
 
 .sidebar section {
-    margin: 2em 1em;
+  margin: 2em 1em;
 
-    /* DO NOT CHANGE THESE */
-    background-color: #dddddd;
-    border: 1px solid #444444;
-    height: 10em; /* this is just so we can see the articles since they have no content */
+  /* DO NOT CHANGE THESE */
+  background-color: #dddddd;
+  border: 1px solid #444444;
+  height: 10em; /* this is just so we can see the articles since they have no content */
 }
 
 /*footer tags*/
@@ -100,9 +99,9 @@ body {
 footer {
   display: flex;
   justify-content: space-between;
-    /* DO NOT CHANGE THESE */
-    background-color: #444444;
-    color: #eeeeee;
+  /* DO NOT CHANGE THESE */
+  background-color: #444444;
+  color: #eeeeee;
 }
 
 footer nav, p {
