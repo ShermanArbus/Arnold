@@ -43,6 +43,7 @@ body {
 .hero li {
   /*display: inline;*/
   margin-right: 2em;
+  margin-top: 1em;
   /* FIXME: just right side margin? */
 }
 
