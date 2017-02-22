@@ -136,17 +136,23 @@ footer nav, p {
 
 .container {
   display: flex;
-  justify-content: center;
+  justify-content: space-around;;
+  margin: 1em;
 
+}
+
+.posts {
+  flex: 3;
 }
 .posts article {
   box-sizing: border-box;
-  flex: 0 0 45%;
+  flex: 0 0 40%;
   margin: 2em 1em;
 }
 
 .sidebar {
-  width: 20%;
+  /*width: 20%;*/
+  flex: 1;
 }
 
 }
