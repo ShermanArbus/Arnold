@@ -13,10 +13,7 @@ body {
 
 /*header tags*/
 .hero {
-  display: flex;
-  justify-content: flex-start;
-  align-items: center;
-  height: 8em;
+  height: 5em;
 
   /* FIXME: align-items: center will move h1 to center*/
 
@@ -25,7 +22,6 @@ body {
 }
 
 .hero h1 {
-  margin-left: 2em;
 
   /*margin: 2em 4em;*/
   /* FIXME: set height manually + left margin only */
@@ -36,22 +32,18 @@ body {
   color: #ffffff;
 }
 
-.hero nav {
-  /*display: flex;*/
-  /* FIXME: display: flex unnecessary */
-  align-self: flex-end;
-  margin: 1em;
-}
 
 .hero ul {
   display: flex;
   list-style-type: none;
+  padding: 0;
+  margin-top: 1em;
   /* FIXME: display:flex <--spreads out insted of li */
 
 }
 .hero li {
   /*display: inline;*/
-  margin-right: 1em;
+  margin-right: 2em;
   /* FIXME: just right side margin? */
 }
 
@@ -89,6 +81,8 @@ body {
   display: flex;
   box-sizing: border-box;
   justify-content: space-around;
+  flex-direction: column;
+
   /* FIXME: align-items: center ???*/
   /* FIXME: flex: 1 */
   /* DO NOT CHANGE THESE */
@@ -100,8 +94,7 @@ body {
 .sidebar section {
   /* FIXME: width */
   margin: 2em 1em;
-
-  /* DO NOT CHANGE THESE */
+ /* DO NOT CHANGE THESE */
   background-color: #dddddd;
   border: 1px solid #444444;
   height: 10em; /* this is just so we can see the articles since they have no content */
@@ -110,7 +103,6 @@ body {
 /*footer tags*/
 
 footer {
-  display: flex;
   justify-content: space-between;
   /* DO NOT CHANGE THESE */
   background-color: #444444;
@@ -130,7 +122,24 @@ footer nav, p {
     justify-content: space-between;
     align-items: center;
     height: 8em;
-    background-color: red;
+}
+
+.hero h1 {
+  margin: 2em;
+}
+
+.hero nav {
+  /*display: flex;*/
+  /* FIXME: display: flex unnecessary */
+  align-self: flex-end;
+
+  margin: 1em;
+}
+
+.hero li {
+  /*display: inline;*/
+  margin-right: 1em;
+  /* FIXME: just right side margin? */
 }
 
 .container {
@@ -143,14 +152,23 @@ footer nav, p {
 .posts {
   flex: 3;
 }
+
 .posts article {
   box-sizing: border-box;
   flex: 0 0 40%;
   margin: 2em 1em;
 }
 
+.sidebar {
+  display: flex;
+}
 .sidebar section {
   width: 30%;
+  flex-direction: row;
+}
+
+footer {
+  display: flex;
 }
 
 }
@@ -165,6 +183,7 @@ footer nav, p {
     flex: 1;
     flex-direction: column;
     justify-content: flex-start;
+    align-items: center;
   }
 
   .sidebar section {
