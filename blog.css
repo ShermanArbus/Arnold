@@ -103,14 +103,11 @@ body {
 /*footer tags*/
 
 footer {
-  justify-content: space-between;
+  /*justify-content: space-between;*/
+  height: 8em;
   /* DO NOT CHANGE THESE */
   background-color: #444444;
   color: #eeeeee;
-}
-
-footer nav, p {
-  margin: 1.5em;
 }
 
 /* ~~~~~~~~~~ */
@@ -145,7 +142,6 @@ footer nav, p {
 .container {
   /*display: flex;*/
   justify-content: space-around;
-  margin: 1em;
 
 }
 
@@ -161,14 +157,17 @@ footer nav, p {
 
 .sidebar {
   display: flex;
+  flex-direction: row;
+
 }
 .sidebar section {
   width: 30%;
-  flex-direction: row;
 }
 
 footer {
   display: flex;
+  justify-content: space-between;
+
 }
 
 }
