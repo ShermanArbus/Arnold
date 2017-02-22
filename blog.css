@@ -128,3 +128,11 @@ footer {
 footer nav, p {
   margin: 1.5em;
 }
+
+@@media screen and (min-width: 35em){
+
+  .hero {
+    margin: 10%;
+    
+  }
+}
