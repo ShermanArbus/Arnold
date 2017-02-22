@@ -16,29 +16,38 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: flex-end;
+  /* FIXME: align-items: center will move h1 to center*/
+
   /* DO NOT CHANGE THESE */
   background-color: #444444;
 }
 
 .hero h1 {
   margin: 2em 4em;
+  /* FIXME: set height manually + left margin only */
   align-self: center;
+  /* FIXME: align-self doesn't account for adding other stuff later */
+
   /* DO NOT CHANGE THESE */
   color: #ffffff;
 }
 
 .hero nav {
   display: flex;
+  /* FIXME: display: flex unnecessary */
+  /* FIXME: align-self: flex-end */
   margin: 1em;
 }
 
 .hero ul {
   list-style-type: none;
+  /* FIXME: display:flex <--spreads out insted of li */
 
 }
 .hero li {
   display: inline;
   margin: 1em;
+  /* FIXME: just right side margin? */
 }
 
 .hero a, footer a {
@@ -50,12 +59,16 @@ body {
 .container {
   display: flex;
   justify-content: center;
+  /* FIXME: margin 0 auto */
+  /* FIXME: width 80% */
 }
 
 .posts {
   display: flex;
   justify-content: center;
+  /* FIXME: space-around? */
   flex-wrap: wrap;
+  /* FIXME: flex: 3 */
 
   /* DO NOT CHANGE THESE */
   color: #444444;
@@ -64,6 +77,7 @@ body {
   box-sizing: border-box;
   flex: 0 0 40%;
   margin: 2em;
+  /* FIXME: top & bottom margins only? 1em 0 */
 
   /* DO NOT CHANGE THESE */
   background-color: #dddddd;
@@ -77,7 +91,9 @@ body {
   box-sizing: border-box;
   flex-direction: column;
   justify-content: flex-start;
+  /* FIXME: align-items: center ???*/
   width: 20%;
+  /* FIXME: flex: 1 */
   /* DO NOT CHANGE THESE */
   background-color: #aaaaaa;
   color: #444444;
@@ -85,6 +101,7 @@ body {
 }
 
 .sidebar section {
+  /* FIXME: width */
   margin: 2em 1em;
 
   /* DO NOT CHANGE THESE */
