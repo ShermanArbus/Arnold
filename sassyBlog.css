@@ -73,19 +73,32 @@ footer {
     .posts article {
       box-sizing: border-box;
       flex: 0 0 40%;
-      margin: 2em 1em; } }
-.sidebar {
-  display: flex;
-  flex-direction: row; }
-  .sidebar section {
-    width: 30%; }
+      margin: 2em 1em; }
 
-footer {
-  display: flex;
-  justify-content: space-between;
-  align-items: center; }
-  footer p {
-    margin-right: 1em;
-    margin-top: 0; }
+  .sidebar {
+    display: flex;
+    flex-direction: row; }
+    .sidebar section {
+      width: 30%; }
+
+  footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; }
+    footer p {
+      margin-right: 1em;
+      margin-top: 0; } }
+@media screen and (min-width: 70em) {
+  .container {
+    display: flex;
+    margin: 0 2%; }
+
+  .sidebar {
+    flex: 1;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center; }
+    .sidebar section {
+      width: 90%; } }
 
 /*# sourceMappingURL=sassyBlog.css.map */
