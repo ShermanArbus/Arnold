@@ -1,9 +1,7 @@
 @media screen and (min-width: 35em) {
 
   .hero {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+    @include alignHeadFoot;
     height: 8em;
 
     h1 {
@@ -43,10 +41,8 @@
   }
 
   footer {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-
+    @include alignHeadFoot;
+    
     p {
       margin-right: 1em;
       margin-top: 0;
