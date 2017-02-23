@@ -1,0 +1,54 @@
+@media screen and (min-width: 35em) {
+
+  .hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 8em;
+
+    h1 {
+      margin: 2em;
+    }
+
+    nav {
+      align-self: flex-end;
+      margin: 1em;
+    }
+
+    li {
+      margin-right: 1em;
+    }
+}
+  .container {
+    justify-content: space-around;
+  }
+
+  .posts {
+    flex: 3;
+
+    article {
+      box-sizing: border-box;
+      flex: 0 0 40%;
+      margin: 2em 1em;
+    }
+  }
+}
+  .sidebar {
+    display: flex;
+    flex-direction: row;
+
+    section {
+      width: 30%;
+    }
+  }
+
+  footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    p {
+      margin-right: 1em;
+      margin-top: 0;
+    }
+}

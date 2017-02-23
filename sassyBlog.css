@@ -51,4 +51,41 @@ footer {
     text-decoration: none;
     color: #ffffff; }
 
+@media screen and (min-width: 35em) {
+  .hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 8em; }
+    .hero h1 {
+      margin: 2em; }
+    .hero nav {
+      align-self: flex-end;
+      margin: 1em; }
+    .hero li {
+      margin-right: 1em; }
+
+  .container {
+    justify-content: space-around; }
+
+  .posts {
+    flex: 3; }
+    .posts article {
+      box-sizing: border-box;
+      flex: 0 0 40%;
+      margin: 2em 1em; } }
+.sidebar {
+  display: flex;
+  flex-direction: row; }
+  .sidebar section {
+    width: 30%; }
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center; }
+  footer p {
+    margin-right: 1em;
+    margin-top: 0; }
+
 /*# sourceMappingURL=sassyBlog.css.map */
