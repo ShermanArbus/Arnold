@@ -1,0 +1,54 @@
+.hero {
+  height: 5em;
+  background-color: #444444; }
+  .hero h1 {
+    color: #ffffff; }
+  .hero ul {
+    display: flex;
+    list-style-type: none;
+    padding: 0; }
+  .hero li {
+    margin-right: 2em;
+    margin-top: 1em; }
+  .hero a {
+    text-decoration: none;
+    color: #ffffff; }
+
+.posts {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  color: #444444; }
+  .posts article {
+    box-sizing: border-box;
+    flex: 0 0 90%;
+    margin: 1em;
+    background-color: #dddddd;
+    border: 1px solid #444444;
+    height: 20em; }
+
+.sidebar {
+  display: flex;
+  box-sizing: border-box;
+  justify-content: space-around;
+  flex-direction: column;
+  background-color: #aaaaaa;
+  color: #444444; }
+  .sidebar section {
+    margin: 2em 1em;
+    background-color: #dddddd;
+    border: 1px solid #444444;
+    height: 10em; }
+
+footer {
+  padding: 1em;
+  height: 8em;
+  background-color: #444444;
+  color: #eeeeee; }
+  footer p {
+    margin-top: 1em; }
+  footer a {
+    text-decoration: none;
+    color: #ffffff; }
+
+/*# sourceMappingURL=sassyBlog.css.map */

@@ -1,0 +1,15 @@
+footer {
+  padding: 1em;
+  height: 8em;
+  background-color: $themeColor;
+  color: $textColor;
+
+  p {
+    margin-top: 1em;
+  }
+
+  a {
+    text-decoration: none;
+    color: $heroThemeColor;
+}
+}

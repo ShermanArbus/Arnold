@@ -1,0 +1,16 @@
+.posts {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  color: $themeColor;
+
+  article {
+    box-sizing: border-box;
+    flex: 0 0 90%;
+    margin: 1em;
+    background-color: $bgColor;
+    border: $themeBorder;
+    height: 20em;
+  }
+
+}

@@ -1,0 +1,16 @@
+.sidebar {
+  display: flex;
+  box-sizing: border-box;
+  justify-content: space-around;
+  flex-direction: column;
+  background-color: $sectionBg;
+  color: $themeColor;
+
+  section {
+    margin: 2em 1em;
+    background-color: $bgColor;
+    border: $themeBorder;
+    height: 10em;
+  }
+
+}

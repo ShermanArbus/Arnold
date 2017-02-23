@@ -60,6 +60,7 @@ body {
 }
 
 .sidebar {
+  /* FIXME: flex probably not necessary here? removing messed with the margins or padding */
   display: flex;
   box-sizing: border-box;
   justify-content: space-around;
@@ -157,6 +158,8 @@ footer p {
 
   .container {
     display: flex;
+    margin: 0 2%;
+    /* fixed missing margin */
   }
 
   .sidebar {
