@@ -91,7 +91,7 @@ footer {
 @media screen and (min-width: 70em) {
   .container {
     display: flex;
-    margin: 0 2%; }
+    margin: 0 2em; }
 
   .sidebar {
     flex: 1;
