@@ -84,8 +84,7 @@ footer {
       margin: 2em 1em; }
 
   .sidebar {
-    display: flex;
-    flex-direction: row; }
+    display: flex; }
     .sidebar section {
       width: 30%; }
 
@@ -107,7 +106,6 @@ footer {
     justify-content: flex-start;
     align-items: center; }
     .sidebar section {
-      margin: 2em 0;
       width: 90%; } }
 
 /*# sourceMappingURL=sassyBlog.css.map */

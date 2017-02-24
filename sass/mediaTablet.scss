@@ -33,7 +33,6 @@
 
   .sidebar {
     display: flex;
-    flex-direction: row;
 
     section {
       width: 30%;
@@ -42,7 +41,7 @@
 
   footer {
     @include alignHeadFoot;
-    
+
     p {
       margin-right: 1em;
       margin-top: 0;

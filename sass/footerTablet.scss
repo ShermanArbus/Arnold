@@ -1,0 +1,11 @@
+@media screen and (min-width: 35em) {
+
+  footer {
+    @include alignHeadFoot;
+
+    p {
+      margin-right: 1em;
+      margin-top: 0;
+    }
+  }
+}
