@@ -38,17 +38,15 @@ body {
     height: 20em; }
 
 .sidebar {
-  display: flex;
-  box-sizing: border-box;
-  justify-content: space-around;
-  flex-direction: column;
+  padding: 1em;
   background-color: #aaaaaa;
   color: #444444; }
   .sidebar section {
-    margin: 2em 1em;
     background-color: #dddddd;
     border: 1px solid #444444;
-    height: 10em; }
+    height: 10em;
+    width: 90%;
+    margin: 1em auto; }
 
 footer {
   padding: 1em;
@@ -109,6 +107,7 @@ footer {
     justify-content: flex-start;
     align-items: center; }
     .sidebar section {
+      margin: 2em 0;
       width: 90%; } }
 
 /*# sourceMappingURL=sassyBlog.css.map */

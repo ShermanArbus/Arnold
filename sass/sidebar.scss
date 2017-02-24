@@ -1,16 +1,15 @@
 .sidebar {
-  display: flex;
-  box-sizing: border-box;
-  justify-content: space-around;
-  flex-direction: column;
+  padding: 1em;
   background-color: $sectionBg;
   color: $themeColor;
 
   section {
-    margin: 2em 1em;
     background-color: $bgColor;
     border: $themeBorder;
     height: 10em;
+    width: 90%;
+    margin: 1em auto;
+
   }
 
 }
