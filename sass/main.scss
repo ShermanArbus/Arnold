@@ -5,5 +5,12 @@
 @import "posts";
 @import "sidebar";
 @import "footer";
-@import "mediaTablet";
-@import "mediaDesktop";
+
+@import "containerTablet";
+@import "heroTablet";
+@import "postsTablet";
+@import "sidebarTablet";
+@import "footerTablet";
+
+@import "containerDesktop";
+@import "sidebarDesktop";
